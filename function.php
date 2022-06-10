@@ -33,7 +33,7 @@ function register(){
     exit;
   }
 
-  $query = "INSERT INTO users VALUES('', '$name', '$surname', '$email', '$phoneNumber', '$password')";
+  $query = "INSERT INTO users VALUES('$name', '$surname', '$email', '$phoneNumber', '$password')";
   mysqli_query($conn, $query);
   echo "Registration Successful";
 }
