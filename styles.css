@@ -1,0 +1,17 @@
+:root{
+    margin: auto 15px;
+    width: 500px;
+    
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.282);
+}
+.form_container{
+    /* -webkit-box-shadow: 1px 1px 9px 3px rgba(240,240,240,1);
+    -moz-box-shadow: 1px 1px 9px 3px rgba(240,240,240,1);
+    box-shadow: 1px 1px 9px 3px rgba(240,240,240,1); */
+    width: 100%;
+    max-width: 500px;
+    margin: auto 0px;
+}
